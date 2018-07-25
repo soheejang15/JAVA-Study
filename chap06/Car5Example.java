@@ -6,6 +6,7 @@ public class Car5Example {
 		Car5 myCar = new Car5("Æ÷¸£½¦");
 		Car5 yourCar = new Car5("º¥Ã÷");
 		
+		
 		myCar.run();
 		yourCar.run();
 	}
