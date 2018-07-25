@@ -8,8 +8,9 @@ public class Korean {
 	String ssn;
 	
 	//생성자
-	public Korean(String n, String s) {
-		name = n;
-		ssn = s;
+	public Korean(String name, String ssn) {
+		this.name = name;
+		this.ssn = ssn;
+		//this.name은 필드, name은 매개변수이다.
 	}
 }
