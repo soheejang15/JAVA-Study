@@ -24,7 +24,7 @@ public class PromotionExample {
 		B b1 = d;
 		C c1 = e;
 		
-		//B b3 = e; 惑加 包拌 x
+		//B b2 = e; 惑加 包拌 x
 		//C c2 = d; 惑加 包拌 x
 	}
 
