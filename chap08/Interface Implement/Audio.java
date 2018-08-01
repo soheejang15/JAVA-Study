@@ -1,15 +1,15 @@
 package Implement;
 
-public class Television implements RemoteControl {
+public class Audio implements RemoteControl {
 
 	private int volume;
 	
 	public void turnOn() {
-		System.out.println("TV¸¦ ÄÕ´Ï´Ù.");
+		System.out.println("Audio¸¦ ÄÕ´Ï´Ù.");
 	}
 	
 	public void turnOff() {
-		System.out.println("TV¸¦ ²ü´Ï´Ù.");
+		System.out.println("Audio¸¦ ²ü´Ï´Ù.");
 	}
 	
 	public void setVolume(int volume) {
@@ -21,6 +21,7 @@ public class Television implements RemoteControl {
 			this.volume = volume;
 		}
 		
-		System.out.println("ÇöÀç TV º¼·ý : "+volume);
+		System.out.println("ÇöÀç Audio º¼·ý : "+volume);
 	}
+
 }
