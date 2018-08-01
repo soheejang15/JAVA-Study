@@ -3,6 +3,7 @@ package Implement;
 public class Audio implements RemoteControl {
 
 	private int volume;
+	private boolean mute;
 	
 	public void turnOn() {
 		System.out.println("Audio를 켭니다.");
@@ -22,6 +23,16 @@ public class Audio implements RemoteControl {
 		}
 		
 		System.out.println("현재 Audio 볼륨 : "+volume);
+	}
+	
+	@Override
+	public void setMute(boolean mute) {
+		this.mute = mute;
+		if(mute) {
+			System.out.println("Audio 무음 처리 합니다.");
+		} else {
+			System.out.println("Audio 무음 해제 합니다.");
+		}
 	}
 
 }
